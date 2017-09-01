@@ -1,0 +1,469 @@
+ <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    
+    <!--[if (gte mso 9)|(IE)]>
+    <style type="text/css">
+        table {border-collapse: collapse;}
+    </style>
+    <![endif]-->
+    <style type="text/css">
+        /* Basics */
+
+body {
+    Margin: 0;
+    padding: 0;
+    min-width: 100%;
+    background-color: #ffffff;
+}
+
+table {
+    border-spacing: 0;
+    font-family: Verdana, sans-serif;
+    color: #333333;
+}
+
+td {
+    padding: 0;
+}
+
+img {
+    border: 0;
+}
+
+.wrapper {
+    width: 100%;
+    table-layout: fixed;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+.webkit {
+    max-width: 600px;
+    background-color: #ffb72b;
+}
+
+
+/* Windows Phone Viewport Fix */
+
+@-ms-viewport {
+    width: device-width;
+}
+
+.outer {
+    Margin: 0 auto;
+    width: 100%;
+    max-width: 600px;
+}
+
+.full-width-image img {
+    /*width: 100%;*/
+    height: auto;
+}
+
+.inner {
+    padding: 10px;
+}
+
+p {
+    Margin: 0;
+}
+
+a {
+    /*color: #ee6a56;*/
+    text-decoration: none;
+}
+
+.h1 {
+    font-size: 21px;
+    font-weight: bold;
+    Margin-bottom: 18px;
+}
+
+.h2 {
+    font-size: 18px;
+    font-weight: bold;
+    Margin-bottom: 12px;
+}
+
+
+/* One column layout */
+
+.one-column .contents {
+    text-align: left;
+}
+
+.one-column p {
+    font-size: 14px;
+    Margin-bottom: 10px;
+}
+
+.two-column {
+    text-align: center;
+    /* font-size: 0; */
+}
+
+.two-column .column {
+    width: 45%;
+    max-width: 300px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.contents {
+    width: 100%;
+}
+
+.two-column .contents {
+    font-size: 14px;
+    text-align: left;
+}
+
+.two-column img {
+    width: 100%;
+    height: auto;
+}
+
+.two-column .text {
+    padding-left: 5px;
+}
+
+
+/*Three column layout*/
+
+.three-column {
+    text-align: center;
+    font-size: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.three-column .column {
+    width: 100%;
+    max-width: 200px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.three-column .contents {
+    font-size: 14px;
+    text-align: center;
+}
+
+.three-column img {
+    /*width: 100%;*/
+    height: auto;
+}
+
+.three-column .text {
+    /*padding-top: 10px;*/
+    padding-left: 5px;
+}
+
+
+/* Left sidebar layout */
+
+.left-sidebar {
+    text-align: center;
+    font-size: 0;
+}
+
+.left-sidebar .column {
+    /*width: 100%;*/
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.left-sidebar .left {
+    /*max-width: 100px;*/
+    max-width: 60%;
+}
+
+.left-sidebar .right {
+    max-width: 500px;
+}
+
+.left-sidebar .contents {
+    font-size: 14px;
+    /*text-align: center;*/
+    text-align: left;
+}
+
+.left-sidebar a {
+    color: #85ab70;
+}
+
+
+/* Right sidebar layout */
+
+.right-sidebar {
+    /*text-align: center;*/
+    text-align: left;
+    font-size: 0;
+}
+
+.right-sidebar .column {
+    width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.right-sidebar .left {
+    max-width: 322px;
+}
+
+.right-sidebar .right {
+    max-width: 276px;
+}
+
+.right-sidebar .contents {
+    font-size: 14px;
+    /*text-align: center;*/
+    text-align: left;
+}
+
+.right-sidebar a {
+    color: #70bbd9;
+}
+
+
+.contacts,
+.contacts table{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    padding-bottom: 10px;
+}
+
+
+
+/*Media Queries*/
+
+@media screen and (max-width: 400px) {
+    .two-column .column,
+    .three-column .column {
+        max-width: 100% !important;
+    }
+    .three-column img {
+        max-width: 50% !important;
+    }
+    .left-sidebar table:first-child {
+        display: none;
+    }
+    .left-sidebar{
+        vertical-align: middle;
+    }
+
+}
+
+@media screen and (min-width: 401px) and (max-width: 620px) {
+    .three-column .column {
+        max-width: 33% !important;
+    }
+    .two-column .column {
+        max-width: 50% !important;
+    }
+    
+
+}
+
+
+/*my style*/
+.content {
+    background-color: #fff;
+}
+
+.inner_content{
+    Margin: 20px;
+    Margin-top: 0px;
+    padding-top: 40px;
+    height: auto;
+    background-color: #fff;
+    z-index: 1;
+    font-family: Verdana, sans-serif;
+    line-height: 150%;
+    font-size: 14px;
+
+}
+
+span{
+    font-size: 9px;
+}
+
+tr .footer {
+    background-color: #ffb72b;
+}
+
+table .footer{
+    padding: 10px;
+    padding-top: 0;
+}
+
+.header-tr {
+    min-width: 50px;
+    z-index: 0;
+}
+
+.img{
+    background: url('img/background.png');
+    height: 200px;
+}
+
+.sale{
+    font-size: 19px;
+    text-align: left;
+}
+
+.icon{
+    padding-right: 10px;
+}
+
+.free-call {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+}
+
+.free-call p:first-child{
+    font-size: 14px;
+}
+
+    </style>
+</head>
+
+<body>
+    <center class="wrapper">
+        <div class="webkit">
+            <div style="width:100%; max-width:600px; margin: 0 auto;">
+                <table class="outer" align="center">
+                    <!--header begin-->
+                    <tr class="header-tr" >
+                        <td class="full-width-image">
+                            <!-- <img src="img/background.png" alt="" /> -->
+                            <div class="img"></div>
+                        </td>
+                    </tr>
+                    <!-- header end -->
+                    <!-- contents begin -->
+                    <tr class="main_content">
+                        <td>             
+                            <table class="inner_content">
+                                <tr class="greet">
+                                    <td style="width:4%;" rowspan="7"></td>
+                                    <td class="inner contents" style="line-height: 150%;" valign="top">                             
+                                            <p>Дорогой #FIO#!</p>
+                                            <br>
+                                            <br>
+                                            <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus est mollitia quod unde adipisci ad cum eos vitae odio consequatur?</p>
+                                            <br>
+                                            <p>Мы признательны Вам, за то, что вы с нами и дарим</p>
+                                            <br> 
+                                    </td>
+                                    <td style="width:4%;" rowspan="7"></td>
+                                </tr>
+                                <tr>
+                                    <td class="two-column">
+                                         <!--[if (gte mso 9)|(IE)]>
+                                        <table width="100%">
+                                        <tr>
+                                        <td width="60%" valign="top">
+                                        <![endif]-->
+                                        <div class="column" style="width:60%;">
+                                            <table width="100%">
+                                                <tr>
+                                                    <td class="inner">
+                                                        <p class = "sale"><strong style="color:red; font-weight: 600;">дополнительную скидку 15% на выкуп остатков текущего курса.</strong></p>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                        <!--[if (gte mso 9)|(IE)]>
+                                        </td><td width="40%" valign="top">
+                                        <![endif]-->
+                                        <div class="column" style="width:40%;">
+                                            <table width="100%">
+                                                <tr>
+                                                    <td>
+                                                        <img src="img/sale.png" alt="" />
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                        <!--[if (gte mso 9)|(IE)]>
+                                        </td>
+                                        </tr>
+                                        </table>
+                                        <![endif]-->
+                                    </td>
+                                    </tr>
+                                <tr class="inner">
+                                    <td>
+                                        <p>Кликните на кнопку внизу, чтобы заказать звонок нашего менеджера.</p>
+                                        <p>С Вами свяжутся и объяснят все подробности нашего предложения.</p>
+                                        <br>
+                                    </td>
+                                </tr>
+                                <tr class="inner">
+                                    <td>
+                                        <a href="#"><img src="img/recall.png" alt="" /></a>
+                                    </td>
+                                </tr>
+                                <tr class="inner">
+                                    <td>
+                                        <br>
+                                        <p>Вы можете воспользоваться данным предложением в течение недели с момента получения письма. К сожалению, мы не можем предложить всем своим студентам такую возможность. Но хотелось бы, чтобы Вы, #FIO#, могли обучаться дешевле и скорее добились успеха и поставленных целей.</p>
+                                        <br>
+                                        <p>С наилучшими пожеланиями,</p>
+                                        <p>Европейская Школа Корреспондентского Обучения.</p>
+                                        <br>
+                                    </td>
+                                </tr>
+                            </table>
+                            <table class = "footer">
+                                <tr class="inner footer">
+                                    <td>
+                                        <table class="footer inner">
+                                            <tr class = "contacts">
+                                                <td style="width:40%;">
+                                                    <table>
+                                                        <tr>
+                                                            <td class="icon"><img src="img/call.png" alt="" /></td>
+                                                            <td class="free-call">
+                                                                <p><b>Бесплатный звонок:</b></p>
+                                                                <p><b>0-800-501-700</b></p>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                                <td style="width:40%;">
+                                                    <table>
+                                                        <tr>
+                                                            <td class="icon"><img src="img/mouse.png" alt="" /></td>
+                                                            <td><p><b><a href="https://eshko.ua">www.eshko.ua</a></b></p></td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                                <td style="width:33%;">
+                                                    
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="3" style="width:60%;">
+                                                    <span>Акция проводится на всей территории Украины, кроме Автономной Республики Крым, временно оккупированных территорий, а также территорий, на которых проводится антитеррористическая операция</span><br>  
+                                                    <span><b>Подробности на нашем сайте <a href="http://eshko.ua">www.eshko.ua</a></b></span>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>    
+                </table>
+            </div>
+        </div>
+    </center>
+</body>
